@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">РistoricalQuiz</string>
+    <string name="title_main">Викторина по истории Отечества!</string>
+    <string name="start_button">Начать</string>
+    <string name="question_1">Вопрос:</string>
+    <string name="q1_text">Когда впервые было упомянуто название Русь значении наименование государства?</string>
+    <string name="btn_to_next"><![CDATA[Далее >>>]]></string>
+    <string name="q2_text">Кто был первым русским царем?</string>
+    <string name="q3_text">Какая война в истории отечества была первой, получившей имя Отечественной?</string>
+    <string name="q4_text">Год образования СССР?</string>
+    <string name="end_btn">Итоги</string>
+    <string name="q5_text">Годы Великой Отечественной войны?</string>
+</resources>

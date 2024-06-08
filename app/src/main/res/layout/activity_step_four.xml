@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".StepFour">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/question_1"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8sp"
+        android:text="@string/q4_text"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@color/black"
+        android:padding="8sp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupFourRG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8sp">
+
+        <RadioButton
+            android:id="@+id/fourOneRB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1923"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/fourTwoRB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1935"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/fourThreeRB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1917"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/fourFourRB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1922"
+            android:textSize="20sp" />
+
+    </RadioGroup>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@color/black"
+        android:padding="8sp" />
+
+    <Button
+        android:id="@+id/fourBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:textSize="20sp"
+        android:text="@string/btn_to_next"/>
+
+</LinearLayout>

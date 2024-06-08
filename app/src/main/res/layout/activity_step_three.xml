@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".StepThree">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/question_1"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8sp"
+        android:text="@string/q3_text"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@color/black"
+        android:padding="8sp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupThreeRG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8sp">
+
+        <RadioButton
+            android:id="@+id/threeOneRB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1645-1667 Русско-Польская война"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/threeTwoRB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Война 1812года"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/threeThreeRB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1700-1721 Северная война"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/threeFourRB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1853-1856 Крымская война"
+            android:textSize="20sp" />
+
+    </RadioGroup>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@color/black"
+        android:padding="8sp" />
+
+    <Button
+        android:id="@+id/toNextThreeBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:textSize="20sp"
+        android:text="@string/btn_to_next"/>
+
+</LinearLayout>
